@@ -2,7 +2,7 @@
 
 ## Project Title
 
-A brief description of your project.
+open source real time js mini projects using your projects .
 
 ## Table of Contents
 
