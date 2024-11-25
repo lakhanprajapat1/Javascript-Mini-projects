@@ -34,7 +34,7 @@ Provide an overview of what your project does, its purpose, and what problem it 
 
 - Clone the Repository:
 '''bash
-     git clone https://github.com/yourusername/js-mini-projects.git
-     cd js-mini-projects
+     git clone https://github.com/lakhanprajapat1/js-mini.git
+     cd js-mini
 
 
