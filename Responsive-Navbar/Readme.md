@@ -18,7 +18,7 @@ A fully responsive and customizable navbar built using **HTML**, **CSS**, and **
 
 1. Clone this repository or download the ZIP file.
    ```bash
-   git clone https://github.com/lakhanprajapat1/javascript-mini-projects.git
+   git clone https://github.com/lakhanprajapat1/js-mini.git
    cd Responsive-Navbar
 
 
