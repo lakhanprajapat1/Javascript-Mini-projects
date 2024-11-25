@@ -2,7 +2,7 @@
 
 This repository contains a responsive portfolio website template built using **HTML**, **CSS**, and **JavaScript**. As part of the **JS Mini Project Series**, this project also integrates the **Shery.js** library to implement a sleek custom cursor for enhanced interactivity and modern design aesthetics.
 
-# Here is live Demo of these tamplate-----> <a href="https://portfolio-templte.netlify.app">https://portfolio.com</a>
+*Here is live Demo of these tamplate-----> <a href="https://portfolio-templte.netlify.app">https://portfolio.com</a>
 
 ## 🚀 Features
 
