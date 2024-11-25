@@ -4,17 +4,6 @@
 
 open source real time js mini projects using your projects .
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-  
 ## Introduction
 
 Provide an overview of what your project does, its purpose, and what problem it solves. Explain why it’s beneficial for users.
