@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #3c18a9;
+}
+.cnav ul li{
+    display: inline;
+    padding: 1vh;
+}
+.cnav ul li a{
+    color: #000000dc;
+    font-size: 3vh;
+    font-weight: 600;
+}
+.cnav{
+    background-color: #fdfdff;
+    height: 7vh;
+    width: auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: fixed;
+    box-shadow: 1px 1px 20px #0000002e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cnav a:hover{
+    color: #4a25b9;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    /* background-image: url(/images/bg1.webp);
+    background-size: cover; */
+}
+
+.sidebar{
+    height: 30vh;
+    width: 3vw;
+    /* border: 1px solid white; */
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+}
+.sidebar a{
+    color: aliceblue;
+    display: block;
+    font-size: 5vh;
+    
+}
+.sidebar a i{
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.front {
+    height: 85vh;
+    width: 100vw;
+    /* border: 1px solid wheat; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front h1{
+    font-size: 5vh;
+    background: linear-gradient(90deg, #5023d8, #b822a6, #af5fff );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.iam h1 {
+    overflow: hidden; 
+    border-right: .10em solid orange;
+    white-space: nowrap;
+    margin: 0 ;
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 52% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.iam{
+    /* border: 1px solid wheat; */
+    height: 60vh;
+    width: 40vw;
+    padding-top: 5vh;
+    margin-left: 5vw;
+}
+
+#who{
+    font-size: 15vh;
+    font-weight: 700;
+    display: inline-block;
+}
+#scroll{
+    color: #fff;
+}
+
+#about,
+#skills,
+#service,
+#project,
+#contact{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+footer{
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+}
+
+
+@media (max-width:600px) {
+    .cnav{
+        height: 5vh;
+        width: 80vw;
+        padding: 0px 10px;
+        align-items: center;
+        margin: 0;
+    }
+    .cnav ul li a{
+        font-size: 1.5vh;
+    }
+    .cnav ul li{
+        display: inline;
+        padding: 0;
+    }
+    .sidebar{
+        height: 20vh;
+        margin-top: 25vh;
+    }
+    .sidebar a{
+        font-size: 3vh;   
+    }
+    .front h1{
+        font-size: 2.5vh;
+    }
+    .iam{
+        /* border: 1px solid wheat; */
+        height: 60vh;
+        width: 80vw;
+        padding-left: 5vw;
+        padding-top: 10vh;
+        /* margin-left: 9vw; */
+    }
+    .iam span{
+        text-align: start;
+    }
+    #who{
+        font-size: 6.3vh;
+        font-weight: 700;
+    }
+    .about-h h1{
+        font-size: 4vh;
+        padding: 0 1vh;
+    }
+    .about-h a{
+        font-size: 2vh;
+        padding: 0 1vh;
+    }
+    .about-text{
+        font-size: 3vh;
+        height: 50vh;
+    }
+    .skill-h h1{
+        font-size: 3vh;
+    }
+    #box{
+        height: 10vh;
+        width: 20vw;
+        padding: 0;
+        gap:0;
+    }
+    .skill-inbox{
+        width: 80vw;
+    }
+}
